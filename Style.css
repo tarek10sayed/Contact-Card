@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(Background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.Card {
+    height: 400px;
+    width: 300px;
+    background-color: rgba(235, 234, 234, 0.295);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.568);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 4%;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.inf {
+    width: 100%;
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+img[alt="facebook"] {
+    width: 30px;
+}
+
+img[alt="twitter"] {
+    width: 30px;
+}
+
+img[alt="linkedin"] {
+    width: 30px;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    transition:  0.4s ease;
+}
+a:hover     {
+    transform: scale(1.1);
+    background-color: skyblue;
+    border-radius:12px ;
+}
+label {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.9s ease;
+}
+label:hover {
+    color: skyblue;
+    text-decoration: underline;
+}
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+p{
+    font-family: Google Sans Code;
+}
